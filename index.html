@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <nav class="navbar__container">
+        <div class="navbar__brand">
+          <img src="../images/logo.svg" alt="ATG world" width="150" />
+        </div>
+        <div class="navbar__search">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            placeholder="Search for your favourite groups in ATG"
+          />
+        </div>
+        <div class="navbar__end">
+          <p>Create account. <a href="#">It's free</a></p>
+          <i class="fas fa-caret-down"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div class="banner">
+      <div class="banner__background">
+        <button class="banner__btn">Join Group</button>
+        <div class="banner__content">
+          <h1>Computer Engineering</h1>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="main__container">
+        <section class="main__header">
+          <ul class="left">
+            <li class="allPosts">All Posts(32)</li>
+            <li>Article</li>
+            <li>Event</li>
+            <li>Education</li>
+            <li>Job</li>
+          </ul>
+          <div class="right">
+            <button class="btn1">
+              Write a Post <i class="fas fa-caret-down"></i>
+            </button>
+            <button class="btn2">
+              <i class="fas fa-user-plus"></i>
+              Join Group
+            </button>
+            <button class="filterBtn">
+              Filter: All
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="main__body">
+          <div class="main__left">
+            <!--! ARTICLE -->
+            <div class="post" id="article">
+              <div class="post__top">
+                <img src="../images/post1.jpg" alt="" />
+              </div>
+              <div class="post__bottom">
+                <div>
+                  <div class="post__type">
+                    <img
+                      src="../images/article-icon.jfif"
+                      style="margin-bottom: 3px"
+                    />
+                    <h4>Article</h4>
+                  </div>
+                </div>
+                <div class="group-1">
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="group-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eum, dolore Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="group-3">
+                  <div class="left">
+                    <img
+                      src="../images/avatar.png"
+                      alt="Avatar"
+                      class="avatar"
+                    />
+                    <div class="user">
+                      <p>UserName</p>
+                      <div><i class="far fa-eye"></i> 1.4k views</div>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div><i class="far fa-eye"></i> 1.4k views</div>
+                    <button>
+                      <i class="fas fa-share-alt"></i><span>Share</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--! EDUCATION -->
+            <div class="post" id="education">
+              <div class="post__top">
+                <img src="../images/post2.jpg" alt="" />
+              </div>
+              <div class="post__bottom">
+                <div class="post__type">
+                  <img src="../images/education-icon.png" />
+                  <h4>Education</h4>
+                </div>
+                <div class="group-1">
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="group-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eum, dolore Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="group-3">
+                  <div class="left">
+                    <img
+                      src="../images/avatar.png"
+                      alt="Avatar"
+                      class="avatar"
+                    />
+                    <div class="user">
+                      <p>UserName</p>
+                      <div><i class="far fa-eye"></i> 1.4k views</div>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div><i class="far fa-eye"></i> 1.4k views</div>
+                    <button>
+                      <i class="fas fa-share-alt"></i><span>Share</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--! MEETUP -->
+            <div class="post" id="meetup">
+              <div class="post__top">
+                <img src="../images/post3.jpg" alt="" />
+              </div>
+              <div class="post__bottom">
+                <div class="post__type">
+                  <img src="../images/calender-icon.png" />
+                  <h4>Meetup</h4>
+                </div>
+                <div class="group-1">
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="group-2">
+                  <div class="container">
+                    <div class="date">
+                      <i class="far fa-calendar-check"></i>2nd October, 2021
+                    </div>
+                    <div class="place">
+                      <i class="fas fa-map-marker-alt"></i>Hyderabad, India
+                    </div>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div class="group-3">
+                  <div class="left">
+                    <img
+                      src="../images/avatar.png"
+                      alt="Avatar"
+                      class="avatar"
+                    />
+                    <div class="user">
+                      <p>UserName</p>
+                      <div><i class="far fa-eye"></i> 1.4k views</div>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div><i class="far fa-eye"></i> 1.4k views</div>
+                    <button>
+                      <i class="fas fa-share-alt"></i><span>Share</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--! JOB -->
+            <div class="post" id="job">
+              <div class="post__top">
+                <img src="../images/post4.jpg" alt="" />
+              </div>
+              <div class="post__bottom">
+                <div class="post__type">
+                  <img
+                    src="../images/job-icon.png"
+                    style="margin-bottom: 2px"
+                  />
+                  <h4>Job</h4>
+                </div>
+                <div class="group-1">
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="group-2">
+                  <div class="container">
+                    <div class="date">
+                      <i class="fas fa-briefcase"></i>2nd October, 2021
+                    </div>
+                    <div class="place">
+                      <i class="fas fa-map-marker-alt"></i>Hyderabad, India
+                    </div>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div class="group-3">
+                  <div class="left">
+                    <img
+                      src="../images/avatar.png"
+                      alt="Avatar"
+                      class="avatar"
+                    />
+                    <div class="user">
+                      <p>UserName</p>
+                      <div><i class="far fa-eye"></i> 1.4k views</div>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div><i class="far fa-eye"></i> 1.4k views</div>
+                    <button>
+                      <i class="fas fa-share-alt"></i><span>Share</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__right">
+            <div class="location">
+              <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Noida, India</p>
+              </div>
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+            <div class="prompt">
+              <i class="fas fa-exclamation-circle"></i> Your location can help
+              us serve better and extend a personalised experience
+            </div>
+            <div class="recommend">
+              <h4>RECOMMENDED GROUPS</h4>
+              <div class="recommend__group">
+                <div>
+                  <img src="../images/avatar.png" alt="Avatar" class="avatar" />
+                  <p>Leisure</p>
+                </div>
+                <button class="followed">Followed</button>
+              </div>
+              <div class="recommend__group">
+                <div>
+                  <img src="../images/avatar.png" alt="Avatar" class="avatar" />
+                  <p>Activism</p>
+                </div>
+                <button>Follow</button>
+              </div>
+              <div class="recommend__group">
+                <div>
+                  <img src="../images/avatar.png" alt="Avatar" class="avatar" />
+                  <p>MBA</p>
+                </div>
+                <button>Follow</button>
+              </div>
+              <div class="recommend__group">
+                <div>
+                  <img src="../images/avatar.png" alt="Avatar" class="avatar" />
+                  <p>Philosophy</p>
+                </div>
+                <button>Follow</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
